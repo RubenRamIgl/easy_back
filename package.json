@@ -1,0 +1,30 @@
+{
+  "name": "tfg_appdiegoback",
+  "version": "1.0.0",
+  "description": "backend en node para app Diego",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "prod": "node ./src/index.js",
+    "sosio": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "app-root-path": "^3.1.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "serve-index": "^1.9.1"
+  }
+}
