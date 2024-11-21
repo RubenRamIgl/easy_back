@@ -69,6 +69,22 @@ app.get("/vangaal", (req, res, next) => {
     }).end();
 });
 
+app.get("/enriqueiglesias", (req, res, next) => {
+    res.send({
+        instrucciones: "Enrique Iglesias",
+        cita: "No, ¿mi color favorito?... Noo, no tengo, no tengo, no tengo... fav, ah, eh... Como el... no tengo un color favorito... osea el azul",
+        yt: "https://www.youtube.com/watch?v=mqHinSiUujY&ab_channel=caroldeiglesias",
+    }).end();
+});
+
+app.get("/mariateresacampos", (req, res, next) => {
+    res.send({
+        instrucciones: "Maria Teresa Campos",
+        cita: "Si yo me refiero por ejemplo... si yo me cortara pues un trocito, qué se yo, de los pies de la cabeza y creciera pues yo lo haría",
+        yt: "https://www.youtube.com/watch?v=x7L9RAhsFSQ&ab_channel=AndoniGarridoFern%C3%A1ndez",
+    }).end();
+});
+
 // PETICIONES POST
 
 //FUNCION Genérica de gestión de errores
